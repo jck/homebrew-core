@@ -1,3 +1,4 @@
+# nvc: Build a bottle for Linuxbrew
 class Nvc < Formula
   desc "VHDL compiler and simulator"
   homepage "https://github.com/nickg/nvc"

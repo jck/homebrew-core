@@ -31,6 +31,9 @@ class Nvc < Formula
 
   depends_on "llvm" => :build
   depends_on "check" => :build
+  depends_on "bison" unless OS.mac?
+  depends_on "flex" unless OS.mac?
+  depends_on "homebrew/dupes/tcl-tk" unless OS.mac?
 
   resource "vim-hdl-examples" do
     url "https://github.com/suoto/vim-hdl-examples.git",
